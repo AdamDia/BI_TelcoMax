@@ -47,18 +47,22 @@ The goal is to simulate CRM data and apply suitable machine learning algorithms 
 ---
 
 ## 📂 How to Run
+1. **Create and activate a virtual environment
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-1. **Install required packages**  
+2. **Install required packages**  
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn mlxtend
 
-2. Run the script
+3. Run the script
     ```bash
     python project.py
 
 4. Check generated charts
    
-  The script saves .png images for each model’s output in the current directory.
+  The script saves *.png images for each model’s output in the *output/ directory.
   
 ---
 
